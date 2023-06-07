@@ -52,7 +52,7 @@ public class PetsitterController {
 		return "redirect:/petsitter/main2";
 	}
 	
-	@GetMapping("hostMyPage")
+	@GetMapping("hostMyPage") 
 	public void hostMyPage(@RequestParam("id") Integer hostId, Model model) {
 		//호스트 마이페이지 포워드
 		Map<String, Object> info = petsitterService.selectById(hostId);
