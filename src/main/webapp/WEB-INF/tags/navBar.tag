@@ -20,10 +20,12 @@
 }
 </style>
 
+
+
 <div class="ui fluid right aligned container" id="container">
 	<div class="ui fixed top sticky">
-		<div class="ui dropdown" id="profile">
-			<h4>
+		<div class="ui dropdown">
+			<h4 id="profile">
 
 				<img class="ui tiny image" src="/images/genieLoki.jpeg">로키맘
 
@@ -51,6 +53,7 @@
 					</div>
 				</div>
 				<a class="${current eq 'registration' ? 'active' : '' } item" href="/registration"> 반려동물등록 </a>
+				<a class="${current eq 'petList' ? 'active' : '' } item" href="/petList"> 나의반려동물 </a>
 				<a class="${current eq 'myPage' ? 'active' : '' } item" href="/member/myPage"> 마이페이지 </a>
 				<a class="${current eq 'login' ? 'active' : '' } item" href="/member/login"> 로그인 </a>
 				<a class="${current eq 'signup' ? 'active' : '' } item" href="/member/signup"> 회원가입 </a>
@@ -60,6 +63,7 @@
 		</div>
 	</div>
 </div>
+
 <!-- 
 <div class="d-flex flex-row-reverse mt-3"  >
 	<div class="ui inline dropdown">
@@ -113,6 +117,7 @@
  <div class="up" style="position: fixed; bottom: 10px; right: 10px; ">
 		<i class="fa-solid fa-circle-chevron-up fa-2x"  ></i>
 	</div>
+
 <script>
 	$('.ui.sticky').sticky({
 		offset : 10

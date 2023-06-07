@@ -62,7 +62,7 @@ public class MyFeedService {
 		return mapper.selectById(id);
 	}
 
-	public boolean modify(Feed feed, List<String> removeFileNames, MultipartFile[] addFiles) throws IOException {
+	public boolean modify(Feed feed, List<String> removeFileNames, MultipartFile[] addFiles) throws Exception {
 		
 		// FileName 테이블 삭제	
 		if (removeFileNames != null && !removeFileNames.isEmpty()) {
@@ -87,7 +87,7 @@ public class MyFeedService {
 				mapper.insertFileName(feed.getId(), newFile.getOriginalFilename());
 				
 				// s3에 파일(객체) 업로드
-				String objectKey = "feed/" + feed.getId() + "/" + newFile.getOriginalFilename();
+				String objectKey = "membery/" + feed.getId() + "/" + newFile.getOriginalFilename();
 				PutObjectRequest por = PutObjectRequest.builder()
 						.acl(ObjectCannedACL.PUBLIC_READ)
 						.bucket(bucketName)
