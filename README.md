@@ -5,7 +5,7 @@
 	<h3>🐶 상세 설명은 여기에 🍒</h3>
 </div>
 <div align=center>
-	<a href="https://www.notion.so/Lily-membery-1e3b2ef6a2794ce49f8d1003592291cb">
+	<a href="https://fortune-panama-ec6.notion.site/Lily-membery-1e3b2ef6a2794ce49f8d1003592291cb?pvs=4">
 		<img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=Notion&logoColor=white" />
 	</a>
 	<br>
