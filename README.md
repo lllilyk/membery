@@ -2,7 +2,7 @@
 	<img src="https://capsule-render.vercel.app/api?type=waving&color=e4969b&height=200&section=header&text=membery&fontSize=90" />	
 </div>
 <div align=center>
-	<h3>🐶 상세 설명은 여기에 🍒</h3>
+	<h3>🎨 상세 설명은 여기에 🎨</h3>
 </div>
 <div align=center>
 	<a href="https://fortune-panama-ec6.notion.site/Lily-membery-1e3b2ef6a2794ce49f8d1003592291cb?pvs=4">
